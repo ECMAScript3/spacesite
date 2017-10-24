@@ -10,22 +10,60 @@ body
 {
     width: 350px; 
     overflow:auto; 
-    background: rgba(101, 199, 255, 0.4); 
+    background: rgba(24, 27, 29, 0.699); 
     color: white;
     display: inline-block;
 }
+.article2
+{
+    margin: auto; 
+    width: 940px; 
+    background-color: rgba(24, 27, 29, 0.699);
+    color: white;
+    text-align: left;
+}
+.tc 
+{
+    padding: 10px;
+}
+.linkcollection
+{
+    background: transparent;
+}
+.linkcollection a 
+{
+    text-align: center; 
+    padding: 0px 10px;
+}
+.linkcollection img
+{
+    height: 50px; 
+    width: 50px; 
+    padding: 5px; 
+    vertical-align: middle; 
+}
+h1
+{
+    padding: 10px;
+}
 .menubar
 {
-    background: rgba(101, 199, 255, 0.4);
+    background: rgba(17, 18, 19, 0.4);
     width: 60%;
     margin: auto;
     color: #ffffff;
 }
-.bluebar
+.terminatorbar
 {
     height: 10px; 
     width: 100%; 
     background: rgb(75, 151, 192);
+}
+.splitterbar
+{
+    height: 10px; 
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.534);  
 }
 .header
 {
@@ -35,10 +73,6 @@ body
     padding: 40px 0px;
     margin: auto;
     color: #ffffff;
-}
-.articlespace
-{
-    padding: 0px 20px; 
 }
 .image
 {
@@ -79,6 +113,7 @@ li div
     width: 0%;
     background-color: rgba(255, 255, 255, 0.43);
     margin: auto;
+    padding: 0;
 
     -webkit-transition: 0.2s; /* Safari */
     -webkit-transition-timing-function: linear; /* Safari */
@@ -112,6 +147,105 @@ li a:hover + div
     height: 100%;
     object-fit: cover;
 }
+
+
+
+
+
+
+
+.button 
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.ti
+{
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    -webkit-transition: 0.2s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: 0.2s;
+    transition-timing-function: linear;
+    
+}
+.ti:focus
+{
+    width: 90%;
+}
+
+.medias a
+{
+    opacity: 1;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    border: solid 2px rgba(255,255,255,0);
+}
+
+.medias div
+{
+    height: 10px; 
+    width: 0%;
+    background-color: rgba(255, 255, 255, 0.43);
+    margin: auto;
+}
+.medias a:hover
+{
+    background-color: rgba(255, 255, 255, 0.18);
+}
+.medias a:hover + div
+{
+    width: 100%;
+}
+
+
+.text
+{
+    font-size: 20px;
+    font-weight: 200;
+}
+.newsdate
+{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 4px;
+}
+.newsheader
+{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 4px;
+}
+.newssubheader
+{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 4px;
+}
+.news
+{
+    text-align: left;
+}
+
+
+
+
+
+
 
 
 
